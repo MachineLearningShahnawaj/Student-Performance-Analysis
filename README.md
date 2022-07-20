@@ -24,3 +24,34 @@ For this Purpose we are going to use StudentsPerformance.csv file , If you are i
 In this Student-Performance-Analysis Project we will analyze the different parameters as mentioned above and their impact on the student performance, we will also create visualization for the same.
 After the Analysis is done we will try to make some simple models with the available features and evaluate the performance of our Model.
 So, Let's Started !!!
+
+
+## Loading and understanding the dataset
+***
+* We have 1000 data points each having 8 features.
+* Out of 8 features 
+..*5 are categorical features
+..*3 are numerical features
+* There is a high correlation between Reading and Writing Score of a Student.
+* We don't have any null or empty cell in our data frame.
+
+## Exploratory Data Analysis and Visualization:
+***
+### Univariate Analysis of Numerical Variable
+* Distribution of Marks in Math and Reading seems to be equal, while students are performing well in writing section.
+
+### Univariate Analysis of Categorical Variable
+* We have almost equal number of male and female students.
+* We have least number of students from group A and highest number of student from group C.
+* Around 60 parents have a master's degree.
+* Around 350 students not able to get a standard lunch and depends on free or reduced lunch.
+* 2/3rd students are not preparing test while 1/3rd number of students are completely preparing for the test.
+
+### Multivariate Analysis with Boxplot
+* In general Male student performs better in Math, While female performs better in reading and writing section.
+* student with race as group E are performing better in Math and reading but incase of writing except group A which is lacking rest all race students performs same in the writing section.
+* students with parental level of education as master's degree have an edge in reading and writing section.
+* students having standard lunch seems to perform well in all the 3 sections.
+* As Expected in general students who completely prepare for the tests performs better in all the 3 section than the students who are not prepared.
+
+
