@@ -54,4 +54,8 @@ So, Let's Started !!!
 * students having standard lunch seems to perform well in all the 3 sections.
 * As Expected in general students who completely prepare for the tests performs better in all the 3 section than the students who are not prepared.
 
-
+## Data Preparation for Model Building:
+***
+* We have 5 independent features and trying to analysis the 3 features such as math score, reading score and writing score for those we only have 1000 data points. So rather than predicting the score in each subject, we will try to predict the grade of the student.
+* We will calculate the percentage mark of each student and on the basis of the percentage mark , we will divide the students into 7 categories and then with our model we will try to predict those categories.
+* Finally we will save the processed data as prepared.csv for further proceeding.
